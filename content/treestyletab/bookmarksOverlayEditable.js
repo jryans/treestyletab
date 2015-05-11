@@ -43,6 +43,8 @@ var TreeStyleTabBookmarksServiceEditable = inherit(TreeStyleTabBookmarksService,
 
 	init : function TSTBMEditable_init()
 	{
+    return;
+
 		if (this.isCreatingMultipleBookmarksInFolder) return;
 
 		// main browser window
